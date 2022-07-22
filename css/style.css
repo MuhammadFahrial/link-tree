@@ -25,7 +25,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    overflow: hidden;
 }
 
 .for-animation {
@@ -96,6 +95,10 @@ body {
     font-style: italic;
 }
 
+.github img {
+    width: 60px;
+}
+
 .youtube a {
     display: flex;
     align-items: center;
@@ -117,6 +120,10 @@ body {
     margin: 0 auto;
     font-size: 22px;
     font-style: italic;
+}
+
+.youtube img {
+    width: 60px;
 }
 
 .linkedin a {
@@ -142,6 +149,10 @@ body {
     font-style: italic;
 }
 
+.linkedin img {
+    width: 60px;
+}
+
 .instagram a {
     display: flex;
     align-items: center;
@@ -165,6 +176,10 @@ body {
     font-style: italic;
 }
 
+.instagram img {
+    width: 60px;
+}
+
 .twitter a {
     display: flex;
     align-items: center;
@@ -186,6 +201,10 @@ body {
     margin: 0 auto;
     font-size: 22px;
     font-style: italic;
+}
+
+.twitter img {
+    width: 60px;
 }
 
 @media screen and (max-width: 768px) {
@@ -243,7 +262,7 @@ body {
     .instagram,
     .twitter {
         width: 90vw;
-        margin: 20px;
+        margin: 10px;
     }
 
     .github a {
@@ -392,7 +411,7 @@ body {
     .instagram,
     .twitter {
         width: 90vw;
-        margin: 20px;
+        margin: 10px;
     }
 
     .github a {
